@@ -6,6 +6,8 @@
     }
     window.myLibrary = myLibrary
 
+    console.log("ok my library")
+
     let myDiv = document.createElement("div")
 
     myDiv.style.width = "300px"
