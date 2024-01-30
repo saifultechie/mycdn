@@ -13,6 +13,7 @@
     myDiv.style.backgroundColor = "red"
 
     let rootDiv = document.querySelector("#root")
+    console.log(rootDiv, "root div")
     rootDiv.appendChild(myDiv)
 
 })()
