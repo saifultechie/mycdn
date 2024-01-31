@@ -3,7 +3,7 @@
         greet : function(name){
             console.log("hello mr ", name)
         },
-        addDiv : function(){
+        foo : function(){
             let myDiv = document.createElement("div")
 
             myDiv.style.width = "300px"
@@ -15,6 +15,7 @@
             rootDiv.appendChild(myDiv)
         }
     }
+
     window.myLibrary = myLibrary
 
 })()
