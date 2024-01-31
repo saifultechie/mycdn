@@ -3,7 +3,7 @@
         greet : function(name){
             console.log("hello mr ", name)
         },
-        bar : function(){
+        foo : function(){
             let myDiv = document.createElement("div")
 
             myDiv.style.width = "300px"
