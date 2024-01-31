@@ -1,8 +1,5 @@
 (function (){
     let myLibrary = {
-        greet : function(name){
-            console.log("hello mr ", name)
-        },
         foo : function(val){
             console.log("hello ",val)
             // let myDiv = document.createElement("div")
